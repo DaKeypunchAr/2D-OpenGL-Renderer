@@ -11,27 +11,27 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="EventManager\EventManager.h" />
+    <ClInclude Include="EventHandler\EventHandler.h" />
     <ClInclude Include="Primitives\Primitive.h" />
     <ClInclude Include="Renderer\Renderer.h" />
     <ClInclude Include="Scene\Layer\Layer.h" />
     <ClInclude Include="Scene\Scene.h" />
     <ClInclude Include="Shader\Shader.h" />
-    <ClInclude Include="Shader\UniformManager\UniformManager.h" />
-    <ClInclude Include="VertexArray\IndexBuffer\IndexBuffer.h" />
+    <ClInclude Include="Shader\UniformHandler\UniformHandler.h" />
+    <ClInclude Include="VertexArray\ElementBuffer\ElementBuffer.h" />
     <ClInclude Include="VertexArray\VertexArray.h" />
     <ClInclude Include="VertexArray\VertexBuffer\VertexBuffer.h" />
     <ClInclude Include="Window\Window.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="EventManager\EventManager.cpp" />
+    <ClCompile Include="EventHandler\EventHandler.cpp" />
     <ClCompile Include="Primitives\Primitive.cpp" />
     <ClCompile Include="Renderer\Renderer.cpp" />
     <ClCompile Include="Scene\Layer\Layer.cpp" />
     <ClCompile Include="Scene\Scene.cpp" />
     <ClCompile Include="Shader\Shader.cpp" />
-    <ClCompile Include="Shader\UniformManager\UniformManager.cpp" />
-    <ClCompile Include="VertexArray\IndexBuffer\IndexBuffer.cpp" />
+    <ClCompile Include="Shader\UniformHandler\UniformHandler.cpp" />
+    <ClCompile Include="VertexArray\ElementBuffer\ElementBuffer.cpp" />
     <ClCompile Include="VertexArray\VertexArray.cpp" />
     <ClCompile Include="VertexArray\VertexBuffer\VertexBuffer.cpp" />
     <ClCompile Include="Window\Window.cpp" />

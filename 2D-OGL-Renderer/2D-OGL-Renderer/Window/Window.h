@@ -1,5 +1,5 @@
-#ifndef _2D_OGLR_WINDOW
-#define _2D_OGLR_WINDOW
+#ifndef _2D_OGLR_Window
+#define _2D_OGLR_Window
 
 #include "GLFW/glfw3.h"
 #include "../EventHandler/EventHandler.h"
@@ -19,7 +19,7 @@ namespace OGLR
 			void addKeyEventChangeCallback(OnEventChange func);
 
 			K_Operation getKey(K_Event event);
-			bool shouldClose();
+			bool isAlive();
 
 		public:
 			unsigned short getWidth() const { return m_Width; }
